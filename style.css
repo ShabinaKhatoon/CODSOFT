@@ -73,24 +73,23 @@ dd {
     margin-left: 20px;
 }
 
-.projects dl dt {
+.Projects dl dt {
     font-weight: bold;
     margin-top: 10px;
 }
 
-.projects dd {
+.Projects dd {
     margin-bottom: 10px;
     color: #555;
 }
-.img,
-.about img {
+.About img{
     display: block;
     margin: 20px auto;
     border: 3px solid #af1e5a;
     max-width: 100%;
     height: auto;
 }
-.resume a {
+.Resume a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #1e40af;
@@ -101,7 +100,7 @@ dd {
     transition: background-color 0.3s ease;
 }
 
-.resume a:hover {
+.Resume a:hover {
     background-color: #0f295c;
 }
 footer {
@@ -115,4 +114,20 @@ footer {
         width: 20%;
         text-align: center;
     }
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+  }
 }
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+
+   
+
+
+
+    
